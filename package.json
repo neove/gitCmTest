@@ -1,0 +1,14 @@
+{
+  "name": "gitCmTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lihe3 <lihe3@corp.beisencorp.com>",
+  "license": "MIT",
+  "scripts": {
+    "cm": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"    
+  },
+  "dependencies": {
+    "semantic-release": "^8.2.0"
+  }
+}
