@@ -6,9 +6,15 @@
   "license": "MIT",
   "scripts": {
     "cm": "git-cz",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"    
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
+    "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^8.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
