@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "lihe3 <lihe3@corp.beisencorp.com>",
+  "description": "test",
   "license": "MIT",
   "scripts": {
     "cm": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
-    "url": "https://github.com/neove/gitCmTest"
+    "type": "git",
+    "url": "https://github.com/neove/gitCmTest.git"
   },
   "dependencies": {
     "cz-conventional-changelog": "^2.0.0",
