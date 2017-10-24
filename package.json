@@ -8,6 +8,9 @@
     "cm": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "repository": {
+    "url": "https://github.com/neove/gitCmTest"
+  },
   "dependencies": {
     "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^8.2.0"
