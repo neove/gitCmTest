@@ -9,11 +9,6 @@
     "cm": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "release": {
-		"debug": false,
-		"githubToken": "465a403bd6bcfc8fff32fcd5ef087098bf0bc083",
-		"NPM_TOKEN": ""
-	},
   "repository": {
     "type": "git",
     "url": "https://github.com/neove/gitCmTest.git"
