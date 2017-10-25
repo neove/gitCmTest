@@ -4,12 +4,11 @@ cache:
     - ~/.npm
 notifications:
   email: false
-node_js:
-  - '8'
+
 deploy:
   provider: npm
-  email: lihegaozhong@gmail.com
-  api_key: 0b0c9b47-769c-40cd-923a-69a861a0bb7d
+  email: "lihegaozhong@gmail.com"
+  api_key: "0b0c9b47-769c-40cd-923a-69a861a0bb7d"
   on:
     tags: true
 before_script:
