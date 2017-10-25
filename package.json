@@ -1,5 +1,5 @@
 {
-  "name": "gitCmTest",
+  "name": "git-cm-test",
   "version": "1.0.0",
   "main": "index.js",
   "author": "lihe3 <lihe3@corp.beisencorp.com>",
@@ -16,6 +16,9 @@
   "dependencies": {
     "cz-conventional-changelog": "^2.0.0",
     "semantic-release": "^8.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "config": {
     "commitizen": {

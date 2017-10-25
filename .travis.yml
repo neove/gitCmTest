@@ -6,8 +6,12 @@ notifications:
   email: false
 node_js:
   - '8'
-before_install:
-  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+deploy:
+  provider: npm
+  email: lihegaozhong@gmail.com
+  api_key: 0b0c9b47-769c-40cd-923a-69a861a0bb7d
+  on:
+    tags: true
 before_script:
   - npm prune
 script:
