@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "cz-conventional-changelog": "^2.0.0",
-    "semantic-release": "^8.2.0"
+    "global": "^4.3.2",
+    "semantic-release": "^8.2.0",
+    "travis": "^0.1.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
