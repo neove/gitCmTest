@@ -1,6 +1,6 @@
 {
   "name": "git-cm-test",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "neove <15634211355@163.com>",
   "description": "test",
