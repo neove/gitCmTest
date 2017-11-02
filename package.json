@@ -2,7 +2,7 @@
   "name": "git-cm-test",
   "version": "0.0.0-development",
   "main": "index.js",
-  "author": "neo <15634211355@163.com>",
+  "author": "neove <15634211355@163.com>",
   "description": "test",
   "license": "MIT",
   "scripts": {
@@ -18,9 +18,6 @@
     "global": "^4.3.2",
     "semantic-release": "^8.2.0",
     "travis": "^0.1.1"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
   },
   "config": {
     "commitizen": {
