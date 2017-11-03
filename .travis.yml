@@ -15,6 +15,7 @@ before_install:
   -in deploy_rsa.enc -out deploy_rsa -d
 - eval `ssh-agent -s`
 - chmod 600 deploy_rsa
+- echo "139.199.201.19 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE0GREVg01TWLK3CO3qtXuC0WL2ibBRmhsVINmcDFwrMAaSKaajH91+MeozjV1ZV8zIfgza7D0OVTax0Oq/Qoyg=" >> ~/.ssh/known_hosts
 - ssh-add deploy_rsa
 deploy:
   provider: script
