@@ -9,14 +9,20 @@ node_js:
 before_script:
 - npm prune
 script: 
-after_success:
-- npm run semantic-release
-branches:
-  only:
-  - master
 before_deploy:
 - openssl aes-256-cbc -K $encrypted_c7c84622e0dd_key -iv $encrypted_c7c84622e0dd_iv
   -in travis_rsa.enc -out /temp/travis_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/travis_rsa
 - ssh-add /tmp/travis_rsa
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist root@139.199.201.19:pageBuilder/
+  on:
+    branch: master
+after_success:
+- npm run semantic-release
+branches:
+  only:
+  - master
