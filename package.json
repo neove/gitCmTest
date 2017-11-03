@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/neove/gitCmTest.git"
+    "url": "https://github.com/pageBuild/demo1"
   },
   "dependencies": {
     "cz-conventional-changelog": "^2.0.0",
